@@ -1,6 +1,7 @@
 // Import stylesheets
 import './style.css';
 import { Cookie } from './models/Cookie';
+import { ColourEnums } from './models/ColoursEnum';
 
 const cookieSelector: HTMLSelectElement = document.getElementById('cookieSelector') as HTMLSelectElement;
 let selectedCookie: Cookie;
